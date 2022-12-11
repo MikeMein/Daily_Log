@@ -1,0 +1,6 @@
+Local vim settings still looking good
+Should probably do this as a check list from Markdown guide
+Go over communicte using markdown guide
+Reviewd TLCL Chapter 16: Networking
+  Attempt to get to Chapter 20: Text Processing
+LiA Chapter 3: Remote Connections
