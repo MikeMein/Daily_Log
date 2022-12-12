@@ -1,0 +1,5 @@
+Have 3 VMs on remote machine running SSH Server
+Cloned VMs thru SSH login on local client
+Create and organize unique keys for VMs
+Use ssh-copy-id -i command succesfully
+
