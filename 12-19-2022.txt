@@ -88,5 +88,12 @@ Recap of past week
 
   Chapter 36-Exotica
 
+Linux in Action
+
+  Although the nmon graphs look appealing. iftop and nethogs are pretty dry terminal displays. Can probably colorize my iTerm2 a lot better but I haven’t let myself play around with customizing it much at all. 
+
+
+
 Go thru a bit more Vimm with Vigor
-Although the nmon graphs look appealing. iftop and nethogs are pretty dry terminal displays. Can probably colorize my iTerm2 a lot better but I haven’t let myself play around with customizing it much at all. 
+shell function to incorporate git add ., git commit =m "comment", git push
+
