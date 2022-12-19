@@ -1,0 +1,92 @@
+Recap of past week
+ TLCL scripting recap
+
+  Chapter 24-Writing Your First Script
+    Writing Shell scripts
+      Text files
+    Making scripts executable
+      File permissions: chmod 755 <file>
+    File formatting
+      #!/bin/bash
+        #! shebang special meaning followed by PATH then type of script
+      PATH variable might need adjustment: add export PATH=/bin:"$PATH"
+      Apply changes to current term session: . <file> or source <file>
+
+  Chapter 25-Starting a Project
+    HTML system info report
+    Variables & Constants in scripts
+    variable=value value is a string make sure to quote 
+    Here documents and here strings << <<- allows for indenting
+  
+  Chapter 26-Top-Down Design
+    Structure of how the rest of the chapter build sys info report
+      shell funtions and structure
+#      name () {
+          commands
+          return
+      }
+      Great replacements for aliases, put in .bashrc or .zshrc
+
+  Chapter 27-Flow Control:Branching with if
+    if commands; then
+      commands
+    [elif commands; then
+      commands...]
+    [else
+      commands]
+    fi
+    test
+      test expression or [ expression ]
+      string expressions
+        string1 =~ regex
+      [[ expression ]] compound test
+        (( )) designed for integers
+      Control Operators another way to branch: && || 
+
+  Chapter 28-Reading Keyboard Input
+    read command
+      read [-options] [variable...]
+    IFS:Internal Field Seperator
+    <<< here string
+
+  Chapter 29-Flow Control:Looping with while/until
+    Looping: Make parts of programs repeat
+      while commands; do commands; done
+        break imnmediately terminates a loop
+        continue causes remainder of loop to be skipped
+      until is opposite of while
+
+  Chapter 30-Troubleshooting
+    Use syntax highlighting
+    empty variables
+    logical errors
+      use test protocols to ensure proper program execution
+      commenting portions of scripts with #
+    Tracing
+      #!/bin/bash -x
+      set -x can turn on tracing
+      set + turns off tracing
+
+  Chapter 31-Flow Control: Branching with case
+    case word in
+      [pattern || pattern]...) commands ;;]...
+    esac
+
+  Chapter 32-Positional Parameters
+    basename command removes leading portion of file name
+
+  Chapter 33-Flow Control:Looping with for
+    for (( expression1 ))
+    while (( expression2 )); do
+      commands
+      (( expression3 )) 
+    done
+
+  Chapter 34-Strings and Numbers
+
+  Chapter 35-Arrays
+
+  Chapter 36-Exotica
+
+Go thru a bit more Vimm with Vigor
+Although the nmon graphs look appealing. iftop and nethogs are pretty dry terminal displays. Can probably colorize my iTerm2 a lot better but I haven’t let myself play around with customizing it much at all. 
