@@ -1,0 +1,5 @@
+Yes Google provided great additional info for my git flow function
+Had to network troubleshoot my SSH server
+  I'm assuming DHCP changed its local subnet address
+  probably should assign a static ip
+  check chapter 14 in LiA for details
