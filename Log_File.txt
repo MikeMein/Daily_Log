@@ -1,0 +1,21 @@
+Finished exploring AWTLCL Chapter 2 Terminal Multiplexers
+  Screen worked as expected
+  Didn't try out all of tmux commands
+    byobu vertical split didn't work with my keyboard (SSHing to the Ubuntu box)
+
+Finshed AWTLCL Chapter 3 Less Typing
+  Probably good to keep revisting in the interest of wrist health
+  suggested alias of update='sudo apt-get update && sudo apt-get updgrade' failed
+    Probably and issue of apt-get vs apt install? Check Kali docs cuz they have good info
+
+Reviewed Linux in Action Chapter 2
+  Containers vs hypervisors
+    Docker & LXC are container technologies
+    VirtualBox is a type 2 hypervisor
+
+Reviewed Linux in Action Chapter 3
+  I want to practice more SSH config stuff
+
+Going to keep doing more Git learning
+  Finished initial readthru of Git Pro Chapter 2
+    Now implementing thru the end
